@@ -1,0 +1,282 @@
+body{
+     
+    margin: 0px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    overflow-x: hidden;
+    
+    /*border: 2px solid black; */
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 93, 93);
+    height: 300px;
+    border-radius: 20px;
+    width: 2500px;
+
+  }
+  .one{
+
+    background-color: rgb(255, 93, 93);
+    text-align: center;
+    margin-bottom: 4px;
+    margin-left: 300px;
+    padding: 22px 0px 0px 40px ;
+    font-size: 30px;
+  }
+  h2{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+  }
+  h3{
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+ div img{
+    height:300px;
+    width:500px;
+ }
+ .navi{
+    padding-bottom: 20px;
+    padding-top: 20px;
+ }
+.navi a{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(14, 7, 7);
+    text-decoration:none;
+    padding: 50px;
+    
+ }
+ a:hover{
+    color: rgb(255, 93, 93);
+ }
+    
+ .child10 img{
+    width: 300px;
+    border-color: white;
+    border: 10px;
+ }
+
+.two{
+   text-align: center;
+   background-color: orange;
+   padding: 50px;
+}
+ .parent{
+   display: flex; 
+   padding: 20px;
+   padding-left: 20px;
+   text-align: center;
+   justify-content: center;  
+}
+.child{
+   padding: 20px;
+}
+ .grid h1{
+   text-align: center;
+ }
+ .button {
+   
+    background-color: #ff6f61;
+   color: #fff;
+   padding:10px;
+   text-decoration: none;
+   border-radius: 5px;
+}
+
+/* Contact Section */
+.contact {
+   background-color: hsl(306, 9%, 22%);
+   padding: 20px 60px;
+   text-align: center;
+}
+
+
+.input{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 30%;
+    margin: 100px;
+    margin-left: 650px;
+    gap: 20px;
+    align-items: center;
+
+  }
+ input{
+    
+    height: 20px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    background-color:hsl(306, 9%, 22%);
+    border-color: white;
+    align-items: center;
+ }
+  textarea{
+    width: 30%;
+    height: 90px;
+    margin-top: 7px;
+    box-sizing: border-box;
+    background-color:hsl(306, 9%, 22%);
+    border-color: white;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+  
+ div button {
+   background-color: #ff6f61;
+   border: none;
+   color: white;
+   padding: 10px 20px;
+   border-radius: 5px;
+   
+}
+/* Portfolio Section */
+.portfolio {
+   background-color:hsl(306, 9%, 22%);
+   color: white;
+   gap: 10px;
+   
+   }
+
+.portfolio-filter a{
+   text-align: center;
+   margin-bottom: 50px;
+   padding-left: 20px;
+   padding-top: 60px;
+   color:white;
+   text-decoration: none;
+   font-size:larger;
+}
+
+.portfolio-filter button {
+   background-color: #ff6f61;
+   border: none;
+   padding: 20px 40px;
+   margin: 10px;
+   cursor: pointer;
+   border-radius:20px;
+   color: white;
+}
+.portfolio-grid {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   color: white;
+}
+.portfolio-grid img {
+   width: 30%;
+   margin: 10px 0;
+   border-radius: 5px;
+}
+@media screen and(max-widthl:70px){
+    body{
+        width: 300px;
+        float: 50%;
+        
+
+    }
+}
+/* Social Media Section */
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.skill {
+     padding-left: 40px;
+    margin-bottom: 50px;
+    text-align: start;
+    color: white;
+    align-items: center;
+
+}
+.progress {
+    height: 100%;
+    background-color: #ff6b6b;
+    border-radius: 5px;
+}
+
+.map-container {
+    width: 100%;
+    height: 400px; 
+}
+.child9{
+    padding-right: px;
+      
+}
+.container7{
+   display: flex;
+   
+}
+.child11{
+    padding-left: 600px;
+}
+.iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+footer {
+	background-color:  rgb(255, 93, 93);
+	color: #fff;
+	text-align: center;
+    padding-bottom: 20px;
+	
+
+}
+div.meter {
+    display: flex;
+	width: 250px;
+	height: 20px;
+	background-color: #fff;
+	border: 2px rgb(255, 107, 107)solid;
+	border-radius: 10px;
+	padding: 0%;
+}
+
+/*div.meter > span.width {
+
+	display: flex;
+    padding-left: 20px;
+	height: 100%;	
+	border-radius: 20px;
+	background-color: rgb(43, 194, 83);
+}*/
+
+.logos{
+    background-color: white;
+    font-size: 40px;
+    color: white;
+    text-align: right;
+    align-items:end;
+
+
+}
+
+.social-media a{
+
+    text-align: right;
+    justify-content: space-between;
+    text-decoration-line: none;
+    color: #fff;
+      
+}
+
+
+
+
+
+
+
+
+
+
