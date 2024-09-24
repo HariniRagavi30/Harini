@@ -327,13 +327,13 @@ span{
 .photo{
     display: flex;
     text-align: center;
-    padding-left: 350px;
+    padding-left: 200px;
     align-items: center;
     color: white;
 }
 .photo1{
     display: flex;
-    padding-left: 500px;
+    padding-left: 200px;
     color: white;
 }
 
