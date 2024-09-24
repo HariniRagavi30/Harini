@@ -276,6 +276,11 @@ div.meter {
 	border-radius: 8px;
 	padding: 0%;
 }
+.child10>img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
 
 .logos{
     background-color: white;
