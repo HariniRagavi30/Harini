@@ -121,6 +121,7 @@ p{
     background-color: hsl(306, 9%, 22%);
     padding: 20px 60px;
     text-align: center;
+    font-size: larger;
 }
 #message{
     width: 97%;
@@ -165,6 +166,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin: 10px;
 }
 
 button:hover {
