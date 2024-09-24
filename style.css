@@ -45,7 +45,7 @@ p{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   .parent div{
-    color:  rgb(165, 165, 165);
+    color:  black;
   }
   h4{
     color: black;
@@ -53,7 +53,7 @@ p{
 
  div img{
     height:300px;
-    width:500px;
+    width:400px;
  }
  .navi1{
     display: flex;
@@ -319,8 +319,18 @@ span{
     text-align: center;
     padding-right: 80px;  
 }
-
-
+.photo{
+    display: flex;
+    text-align: center;
+    padding-left: 350px;
+    align-items: center;
+    color: white;
+}
+.photo1{
+    display: flex;
+    padding-left: 500px;
+    color: white;
+}
 
 
 
