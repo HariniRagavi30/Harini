@@ -59,6 +59,8 @@ p{
     display: flex;
     align-items: center;
     padding-left: 500px;
+    justify-content: space-around;
+    
  }
  a{
     padding: 10px;
@@ -100,9 +102,7 @@ p{
 .child{
    padding: 20px;
 }
- .grid h1{
-   text-align: center;
- }
+ 
  .button {
    background-color: #ff6f61;
    color: #fff;
