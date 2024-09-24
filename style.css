@@ -5,8 +5,16 @@ body{
     margin: 0px;
     text-align: center;
     overflow-x: hidden;
-    
     /*border: 2px solid black; */
+}
+div p{
+    text-align: center;
+    color: rgb(165, 165, 165);
+    padding-left: 100px;
+    
+  }
+p{
+        color:black;
 }
 
 .flex-container {
@@ -26,7 +34,7 @@ body{
     margin-left: 300px;
     padding: 22px 0px 0px 40px ;
     font-size: 30px;
-  }
+}
   h2{
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,16 +49,20 @@ body{
     height:300px;
     width:500px;
  }
- .navi{
-    padding-bottom: 20px;
-    padding-top: 20px;
+ .navi1{
+    display: flex;
+    align-items: center;
+    padding-left: 500px;
  }
-.navi a{
-    margin-top: 20px;
+ a{
+    padding: 10px;
+    padding-left: 0px;
+    align-items: center;
+    justify-content: space-between;
     text-align: center;
     color: rgb(14, 7, 7);
     text-decoration:none;
-    padding: 50px;
+    
     
  }
  a:hover{
@@ -61,6 +73,10 @@ body{
     width: 300px;
     border-color: white;
     border: 10px;
+ }
+ article {
+    
+    height: 600px;
  }
 
 .two{
@@ -82,68 +98,88 @@ body{
    text-align: center;
  }
  .button {
-   
-    background-color: #ff6f61;
+   background-color: #ff6f61;
    color: #fff;
    padding:10px;
    text-decoration: none;
    border-radius: 5px;
+   
 }
 
 /* Contact Section */
-.contact {
-   background-color: hsl(306, 9%, 22%);
-   padding: 20px 60px;
-   text-align: center;
+#contact {
+    background-color: rgb(61, 51, 60);
+    padding: 50px 0;
+}
+#contact {
+    background-color: hsl(306, 9%, 22%);
+    padding: 20px 60px;
+    text-align: center;
+}
+#message{
+    width: 97%;
+    padding-left: 10px;
+    box-sizing: border-box;
 }
 
-
-.input{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    width: 30%;
-    margin: 100px;
-    margin-left: 650px;
-    gap: 20px;
-    align-items: center;
-
-  }
- input{
+form {
     
-    height: 20px;
-    margin-top: 30px;
-    box-sizing: border-box;
-    background-color:hsl(306, 9%, 22%);
-    border-color: white;
-    align-items: center;
- }
-  textarea{
-    width: 30%;
-    height: 90px;
-    margin-top: 7px;
-    box-sizing: border-box;
-    background-color:hsl(306, 9%, 22%);
-    border-color: white;
-    align-items: center;
-    padding-left: 50px;
-    padding-top: 50px;
-  }
-  
- div button {
-   background-color: #ff6f61;
-   border: none;
-   color: white;
-   padding: 10px 20px;
-   border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color:rgb(61, 51, 60);
+
+    padding: 20px;
    
 }
+.child20{
+    display: flex;
+    
+    height: 30px;
+    margin: 10px;
+    align-items: center;
+    gap: 10px;
+    
+  }
+input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(61, 51, 60);
+    box-sizing: border-box;
+    background-color:hsl(306, 9%, 22%);
+    border-color: white;
+    align-items: center;
+    
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff5e5e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff5e5e ;
+}
+textarea{
+    width:  45%;
+    height: 100px;
+    box-sizing: border-box;
+    background-color:hsl(306, 9%, 22%);
+    border-color: white;
+    align-items: center;
+  }
+
 /* Portfolio Section */
+
 .portfolio {
    background-color:hsl(306, 9%, 22%);
    color: white;
    gap: 10px;
-   
-   }
+}
 
 .portfolio-filter a{
    text-align: center;
@@ -160,7 +196,7 @@ body{
    border: none;
    padding: 20px 40px;
    margin: 10px;
-   cursor: pointer;
+
    border-radius:20px;
    color: white;
 }
@@ -171,16 +207,15 @@ body{
    color: white;
 }
 .portfolio-grid img {
+    
    width: 30%;
-   margin: 10px 0;
+   margin: 10px;
    border-radius: 5px;
 }
-@media screen and(max-widthl:70px){
+@media screen and(max-width:70px){
     body{
         width: 300px;
         float: 50%;
-        
-
     }
 }
 /* Social Media Section */
@@ -198,7 +233,7 @@ h1 {
 
 }
 .progress {
-    height: 100%;
+    height: 150%;
     background-color: #ff6b6b;
     border-radius: 5px;
 }
@@ -208,7 +243,8 @@ h1 {
     height: 400px; 
 }
 .child9{
-    padding-right: px;
+    
+    margin-left: 20px;
       
 }
 .container7{
@@ -216,60 +252,76 @@ h1 {
    
 }
 .child11{
-    padding-left: 600px;
+    padding-left: 585px;
 }
 .iframe {
     width: 100%;
     height: 100%;
     border: none;
 }
-
-
 footer {
 	background-color:  rgb(255, 93, 93);
 	color: #fff;
 	text-align: center;
-    padding-bottom: 20px;
-	
-
+    padding-bottom: 10px;
 }
 div.meter {
     display: flex;
 	width: 250px;
-	height: 20px;
+	height: 20%;
 	background-color: #fff;
 	border: 2px rgb(255, 107, 107)solid;
-	border-radius: 10px;
+	border-radius: 8px;
 	padding: 0%;
 }
 
-/*div.meter > span.width {
-
-	display: flex;
-    padding-left: 20px;
-	height: 100%;	
-	border-radius: 20px;
-	background-color: rgb(43, 194, 83);
-}*/
-
 .logos{
     background-color: white;
+    background-size: 0px;
     font-size: 40px;
     color: white;
-    text-align: right;
-    align-items:end;
-
+    justify-content: space-around;
+    gap: 40px;
 
 }
-
-.social-media a{
-
-    text-align: right;
-    justify-content: space-between;
+.fa-brands{
+    border-radius: 100px;
+}
+.social-media i{
     text-decoration-line: none;
     color: #fff;
-      
+    align-items: end;  
 }
+
+span{
+    color: black;
+    position:absolute;
+    padding-left: 14%;
+}
+.social-media p{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    padding-left: 300px;
+    
+}
+.social-media{
+    display: flex;
+    align-items: center;   
+}
+.logo{
+    text-align: end;
+    padding-left: 700px;
+}
+.skills-container p{
+    text-align: center;
+    padding-right: 80px;  
+}
+
+
+
+
+
 
 
 
