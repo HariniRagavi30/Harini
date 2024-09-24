@@ -44,6 +44,9 @@ p{
     color:white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
+  .parent div{
+    color: rgb(210, 210, 210);
+  }
 
  div img{
     height:300px;
