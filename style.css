@@ -1,3 +1,7 @@
+*{
+    font-weight: bold;
+}
+
 body{
     margin: 0px;
     padding: 0px;
@@ -9,13 +13,19 @@ body{
 div p{
     text-align: center;
     color: rgb(165, 165, 165);
-    
+    font-size: larger;
     
   }
 p{
         color:black;
 }
+.navi1{
+    font-size: larger;
+}
 
+.child div{
+    font-size: larger;
+}
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -187,6 +197,9 @@ textarea{
    color: white;
    gap: 10px;
 }
+.portfolio p{
+    padding-top: 20px;
+}
 
 .portfolio-filter a{
    text-align: center;
@@ -267,6 +280,12 @@ footer {
 	color: #fff;
 	text-align: center;
     padding-bottom: 10px;
+    
+}
+footer p{
+    font-size:large;
+    color: white;
+    padding-top: 20px;
 }
 div.meter {
     display: flex;
@@ -324,6 +343,7 @@ span{
 .skills-container p{
     text-align: center;
     padding-right: 80px;  
+    padding-bottom: 10px;
 }
 .photo{
     display: flex;
@@ -336,6 +356,10 @@ span{
     display: flex;
     padding-left: 200px;
     color: white;
+}
+#program p{
+   padding-top: 10px;
+   margin-top: 10px;
 }
 
 
