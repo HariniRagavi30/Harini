@@ -80,10 +80,10 @@ p{
     color: rgb(14, 7, 7);
     text-decoration:none;
     
-    
  }
+
  a:hover{
-    color: rgb(255, 93, 93);
+    color:black;
  }
     
  .child10 img{
@@ -98,7 +98,7 @@ p{
 
 .two{
    text-align: center;
-   background-color: orange;
+   background-color: #ff6f61;
    padding: 50px;
 }
  .parent{
@@ -178,8 +178,9 @@ button {
     margin: 10px;
 }
 
+
 button:hover {
-    background-color: #ff5e5e ;
+    background-color:  #ff5e5e;
 }
 textarea{
     width:  45%;
