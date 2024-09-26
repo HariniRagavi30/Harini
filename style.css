@@ -81,6 +81,9 @@ p{
     text-decoration:none;
     
  }
+ p a:hover{
+    color: #ff5e5e;
+ }
 
  a:hover{
     color:black;
