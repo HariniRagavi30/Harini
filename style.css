@@ -210,13 +210,6 @@ textarea{
    text-decoration: none;
    font-size:larger;
 }
-.skill{
-    padding-left: 40px;
-    margin-bottom: 50px;
-    text-align: start;
-    color: white;
-    align-items: center;
-}
 
 .portfolio-filter button {
    background-color: #ff6f61;
@@ -234,48 +227,34 @@ textarea{
         float: 50%;
     }
 }
-/* Social Media Section */
-
-h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-.skill {
-     padding-left: 40px;
+/*skills section*/
+#program p{
+    padding-top: 10px;
+    margin-top: 10px;
+ }
+ .container7{
+    display: flex;
+    
+ }
+ .child11{
+     padding-left: 550px;
+ }
+ .skill{
+    padding-left: 40px;
     margin-bottom: 50px;
     text-align: start;
     color: white;
     align-items: center;
-
-}
-.progress {
-    height: 150%;
-    background-color: #ff6b6b;
-    border-radius: 5px;
 }
 
-.map-container {
-    width: 100%;
-    height: 400px; 
-}
-.child9{
-    
-    margin-left: 20px;
-      
-}
-.container7{
-   display: flex;
-   
-}
-.child11{
-    padding-left: 550px;
-}
-.iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-}
+.skill {
+    padding-left: 40px;
+   margin-bottom: 50px;
+   text-align: start;
+   color: white;
+   align-items: center;
 
+}
 div.meter {
     display: flex;
 	width: 250px;
@@ -285,6 +264,55 @@ div.meter {
 	border-radius: 8px;
 	padding: 0%;
 }
+.skills-container p{
+    text-align: center;
+    padding-right: 80px;  
+    padding-bottom: 10px;
+}
+.child9{
+    
+    margin-left: 20px;
+      
+}
+.progress {
+    height: 150%;
+    background-color: #ff6b6b;
+    border-radius: 5px;
+}
+
+/* Portfolio Section */
+.photo{
+    display: flex;
+    text-align: center;
+    padding-left: 200px;
+    align-items: center;
+    color: white;
+}
+.photo1{
+    display: flex;
+    padding-left: 200px;
+    color: white;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.map-container {
+    width: 100%;
+    height: 400px; 
+}
+
+
+.iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
 .child10>img{
     border-radius: 50%;
     width: 300px;
@@ -329,27 +357,9 @@ span{
     text-align: end;
     padding-left: 700px;
 }
-.skills-container p{
-    text-align: center;
-    padding-right: 80px;  
-    padding-bottom: 10px;
-}
-.photo{
-    display: flex;
-    text-align: center;
-    padding-left: 200px;
-    align-items: center;
-    color: white;
-}
-.photo1{
-    display: flex;
-    padding-left: 200px;
-    color: white;
-}
-#program p{
-   padding-top: 10px;
-   margin-top: 10px;
-}
+
+
+
 /*footer*/
 footer {
 	background-color:  rgb(255, 93, 93);
