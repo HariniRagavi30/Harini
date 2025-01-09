@@ -67,7 +67,8 @@ p{
  .navi1{
     display: flex;
     align-items: center;
-    padding-left: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
     justify-content: space-evenly;
     
  }
@@ -89,7 +90,7 @@ p{
     color:black;
  }
     
- .child10 img{
+.child10 img{
     width: 300px;
     border-color: white;
     border: 10px;
@@ -196,9 +197,10 @@ textarea{
 /* Portfolio Section */
 
 .portfolio {
-   background-color:hsl(306, 9%, 22%);
+   
    color: white;
    gap: 10px;
+   background-color: hsl(306, 9%, 22%);  
 }
 .portfolio p{
     padding-top: 20px;
@@ -230,58 +232,6 @@ textarea{
         float: 50%;
     }
 }
-/*skills section*/
-#program p{
-    padding-top: 10px;
-    margin-top: 10px;
- }
- .container7{
-    display: flex;
-    
- }
- .child11{
-     padding-left: 550px;
- }
- .skill{
-    padding-left: 60px;
-    margin-bottom: 50px;
-    text-align: start;
-    color: white;
-    align-items: center;
-}
-
-.skill {
-    padding-left: 40px;
-   margin-bottom: 50px;
-   text-align: start;
-   color: white;
-   align-items: center;
-
-}
-div.meter {
-    display: flex;
-	width: 250px;
-	height: 20%;
-	background-color: #fff;
-	border: 2px rgb(255, 107, 107)solid;
-	border-radius: 8px;
-	padding: 0%;
-}
-.skills-container p{
-    text-align: center;
-    padding-right: 80px;  
-    padding-bottom: 10px;
-}
-.child9{
-    
-    margin-left: 20px;
-      
-}
-.progress {
-    height: 150%;
-    background-color: #ff6b6b;
-    border-radius: 5px;
-}
 
 
 /* Portfolio Section */
@@ -307,6 +257,7 @@ h1 {
 .map-container {
     width: 100%;
     height: 400px; 
+    background-color: white;
 }
 
 
@@ -355,7 +306,9 @@ span{
 }
 .social-media{
     display: flex;
-    align-items: center;   
+    align-items: center;
+    background-color:hwb(0 78% 19% / 0.199) ;   
+    
 }
 .logo{
     text-align: end;
@@ -377,6 +330,139 @@ footer p{
     color: white;
     padding-top: 20px;
 }
+
+/* style.css */
+.stars {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10;
+    margin: 0;
+    background: #222;
+    padding-left: 10px;
+}
+
+.stars {
+    font-size: 50px;
+}
+
+.star {
+    color: gray; /* Default color */
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.star.selected,
+.star:hover {
+    color: gold; /* Highlight color */
+}
+
+
+a href{
+    color: white;
+}
+a:hover{
+    background-color: white;
+    text-decoration: underline;
+    color: rgb(244, 244, 244);
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+ 
+
+    
+}
+.main-content{
+    
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 20px;
+    
+    
+} 
+ .grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(290px,1fr));
+    text-align: center;
+    border: #333333;
+    justify-content: space-between;
+   
+    padding-bottom: 30px;
+    margin: 20px 2px;
+    gap:20px;
+
+}
+ 
+ .grid-item img{
+    width: 140px;
+    height: 150px;
+}
+
+.phot{
+display: flex;
+padding-right:50px;
+padding-left: 120px;
+
+margin-right: 100px;
+}
+.phot1{
+    display: flex;
+    padding-left: 293px;
+    color: white;
+    }
+.grid-item{
+        margin: 10px;
+        border: hwb(0 80% 20%) solid;
+        background-color:  rgb(255, 93, 93);;
+        padding: 20px;
+        
+        
+    }
+
+    .additional-content{
+        background-color: rgb(206, 130, 43);
+        padding: 30px;
+        margin: 20px;
+        text-align: center;
+        grid-template-columns: 20px;
+        
+    }
+    .additional-content1{
+        display: flex;
+        padding: 40px;
+        margin: 30px;
+        justify-content:space-between;
+        background-color: rgb(232, 128, 9);
+    }
+    .content-grid{
+        display: flex;
+        grid-template-columns: 20px 20px;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        gap: 20px;
+        
+    }
+   
+
+    .checked {
+        color: orange;
+      }
+
+
+
+
+
+    
+
+
+
+
 
 
 
