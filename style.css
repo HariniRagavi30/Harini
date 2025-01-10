@@ -90,9 +90,10 @@ p{
  }
     
  .child10 img{
-    width: 300px;
+    width: auto;
     border-color: white;
     border: 10px;
+    border-radius: 100%;
  }
  article {
     
@@ -327,11 +328,11 @@ h1 {
 }
 
 
-.child10>img{
-    border-radius: 50%;
+/* .child10>img{ */
+    /* border-radius: 50%;
     width: 300px;
-    height: 300px;
-}
+    height: 300px; */
+/* } */
 
 .logos{
     background-color: white;
@@ -467,7 +468,7 @@ a:hover{
 .phot{
 display: flex;
 
-padding-left: 300px;
+padding-left: 370px;
 
 margin-right: 100px;
 }
