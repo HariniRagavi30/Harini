@@ -423,7 +423,7 @@ a href{
     color: white;
 }
 a:hover{
-    background-color: white;
+    /* background-color: white; */
     text-decoration: underline;
     color: rgb(244, 244, 244);
     
