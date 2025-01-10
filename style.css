@@ -96,7 +96,7 @@ p{
  }
  article {
     
-    height: 600px;
+    height: 500px;
  }
  article .about{
     margin-top:10px;
@@ -191,7 +191,7 @@ textarea{
     height: 100px;
     box-sizing: border-box;
     background-color:hsl(306, 9%, 22%);
-    border-color: white;
+    /* border-color: white; */
     align-items: center;
   }
 
@@ -199,7 +199,7 @@ textarea{
 
 .portfolio {
    background-color:hsl(306, 9%, 22%);
-   color: white;
+   /* color: white; */
    gap: 10px;
 }
 .portfolio p{
@@ -211,7 +211,7 @@ textarea{
    margin-bottom: 50px;
    padding-left: 20px;
    padding-top: 60px;
-   color:white;
+   /* color:white; */
    text-decoration: none;
    font-size:larger;
 }
@@ -305,7 +305,7 @@ div.meter {
 .photo1{
     display: flex;
     padding-left: 200px;
-    color: white;
+    /* color: white; */
 }
 
 h1 {
@@ -466,8 +466,8 @@ a:hover{
 
 .phot{
 display: flex;
-padding-right:500px;
-padding-left: 100px;
+
+padding-left: 300px;
 
 margin-right: 100px;
 }
