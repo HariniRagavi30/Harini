@@ -73,6 +73,9 @@ p{
     justify-content: space-evenly;
     
  }
+ .grid-container h3{
+    color: black;
+ }
  a{
     padding: 10px;
     padding-left: 0px;
