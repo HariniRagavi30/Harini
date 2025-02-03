@@ -51,10 +51,10 @@ p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
   }
-  h3{
+  /* h3{
     color:white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
+  } */
   .parent div{
     color:  black;
   }
@@ -478,14 +478,14 @@ a:hover{
 .phot{
 display: flex;
 
-padding-left: 370px;
+padding-left: 380px;
 
 margin-right: 100px;
 }
 .pho{
     display: flex;
     
-    padding-left: 430px;
+    padding-left: 400px;
     
     margin-right: 100px;
     }
